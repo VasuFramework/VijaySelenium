@@ -1,0 +1,15 @@
+<suite name="OrangeHRM" >
+  <test name="SmokeTest" >
+  <groups>
+    <run>
+      <include name="Smoke Testing"/>
+      <exclude name="Regression Testing"/>
+    </run>
+  </groups>
+  
+    <classes>
+       <class name="com.testNG.vasu.MultipleTestNGTest" />
+	<class name="com.testNG.vasu.SampleTestNGTest" />
+    </classes>
+  </test>
+</suite>
